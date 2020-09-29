@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+  }
+  
+  .champ {
+    width: 100%;
+    height: 41em;
+    background-color: #9cebd5;
+    display: flex;
+  }
+  
+  .texte {
+    font-family: Georgia;
+    font-size: 70px;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+  }
+  
+  .fruits {
+    font-size: 100px;
+    display: flex;
+  }
+  
+  .row1,
+  .row2,
+  .row3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -80px;
+  }
+  
+  .crayon img {
+    position: absolute;
+    bottom: 20px;
+    width: 10%;
+    height: auto;
+  }
+  
+  .panier {
+    width: 100%;
+    height: 41em;
+    background-color: #e0ab94;
+    display: flex;
+  }
+  
+  .add {
+    position: relative;
+    top: 50%;
+    left: 40%;
+  }
+  
